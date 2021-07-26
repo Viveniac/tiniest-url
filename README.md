@@ -4,6 +4,20 @@ This is an application named Tiniesturl similar to tiny url.
 Tiniesturl is a service that converts long urls into short url links to save space when sharing urls.
 When user opens the short url, it will be automatically redirected to original the (long) url.
 
+Functional Requirements:
+- Users should be able to enter a long URL and our service should save that URL and generate a short link.
+- On using the short link should redirect the user to the original long URL
+
+Non-Functional Requirements:
+- The service should be up and running all the time. High Availability.
+- Redirecting should not last longer than two seconds.
+
+For UI:
+I have made use of Swagger UI
+After developing an API, it is good to document it in a good way. Documentation makes APIs easier to understand and use. 
+The API in this project is documented using Swagger UI.
+
+
 
 ## To Run the Application
 
